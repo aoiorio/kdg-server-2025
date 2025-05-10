@@ -16,7 +16,7 @@
 <img width="1440" alt="Screenshot 2025-02-04 at 21 41 49" src="https://github.com/user-attachments/assets/3d8e001e-31db-462a-974f-9ec33add6f64" />
 <img width="1440" alt="Screenshot 2025-02-04 at 21 36 13" src="https://github.com/user-attachments/assets/e2ad6814-030e-45a8-b400-5aad2b89bb60" />
 
-# ✋🏼 Commands for the future
+### ✋🏼 Commands for the future
 
 - イメージに名前をつけてbuildができる
 ```
@@ -34,14 +34,14 @@ docker run -it kdg-nginx
 ```
 
 
-# 📜 Credits
+### 📜 Credits
 - [How to create billing alarms with Terraform?](https://qiita.com/ngyuki/items/bbabe8252203634b6f47)
 - [What is Terraform state?](https://zenn.dev/spacemarket/articles/b7bd1422b896ca)
 - [What is terraform init command?](https://zenn.dev/ishii1648/articles/e3464a668978cb)
 
-# 🏮 Error Solutions
+### 🏮 Error Solutions
 
-### 1️⃣
+- 1️⃣
 
 ```
 Error: Failed to load plugin schemas
