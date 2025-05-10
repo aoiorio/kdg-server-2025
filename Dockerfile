@@ -20,16 +20,22 @@
 # ---------nginx install and run--------
 # FROMにはdocker hubで調べられる
 # FROM hoge のhogeをタグという
-FROM ubuntu:24
+FROM ubuntu:24.04
 
-RUN apt-get update && \
-    apt-get install -y -q curl gnupg2
-RUN curl http://nginx.org/keys/nginx_signing.key | apt-key add -
+RUN <<EOF
+apt-get update
+apt-get install -y nginx
+EOF
+# FROM ubuntu:24
+
+# RUN apt-get update && \
+#     apt-get install -y -q curl gnupg2
+# RUN curl http://nginx.org/keys/nginx_signing.key | apt-key add -
 
 
-RUN apt-get update && \
-    apt-get install -y -q nginx
+# RUN apt-get update && \
+#     apt-get install -y -q nginx
 
-EXPOSE 80
+# EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+# CMD ["nginx", "-g", "daemon off;"]
