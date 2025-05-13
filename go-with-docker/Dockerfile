@@ -4,4 +4,5 @@ WORKDIR /app
 
 COPY ./ .
 
+# execute go
 CMD ["go", "run", "./hello.go"]
