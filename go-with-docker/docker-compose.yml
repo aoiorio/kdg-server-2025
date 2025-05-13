@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  go:
+    build: ./
+    container_name: 'first-container-go'
+    tty: true
+    volumes:
+      - "../src/go:/opt/src"
