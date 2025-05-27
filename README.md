@@ -32,3 +32,7 @@ docker image ls
 ```
 docker run -it kdg-nginx
 ```
+
+### 💡 Credit
+- [Access denied for user 'user'@'ローカルホストIP' (using password: YES)](https://zenn.dev/tojima/articles/32bbfe85dd0022)
+- [docker composeでWordPressを試したときの失敗談](https://qiita.com/rshinano/items/530d42f0f048f79d2317)
